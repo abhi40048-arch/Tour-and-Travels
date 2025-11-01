@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our premium travel destinations - Bali, Santorini, Kyoto, Machu Picchu, and Safari tours. Book your dream vacation with Wanderlust Tours.">
+    <meta name="keywords" content="travel destinations, Bali tours, Santorini vacation, Japan travel, Peru tours, Kenya safari, luxury travel packages">
+    <meta name="author" content="Wanderlust Tours">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="Wanderlust Tours - Premium Travel Destinations">
+    <meta property="og:description" content="Explore our curated collection of the world's most breathtaking destinations.">
+    <meta property="og:image" content="https://wanderlust-tours.com/images/og-destinations.jpg">
+    <meta property="og:url" content="https://wanderlust-tours.com/destinations.html">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wanderlust Tours - Premium Travel Destinations">
+    <meta name="twitter:description" content="Explore our curated collection of the world's most breathtaking destinations.">
+    <meta name="twitter:image" content="https://wanderlust-tours.com/images/twitter-destinations.jpg">
+    
+    <link rel="canonical" href="https://wanderlust-tours.com/destinations.html">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Bali, Indonesia",
+          "description": "Tropical paradise with white sand beaches and crystal clear water",
+          "url": "https://wanderlust-tours.com/destinations.html#bali"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Santorini, Greece",
+          "description": "Iconic blue-domed churches and breathtaking sunsets of the Aegean",
+          "url": "https://wanderlust-tours.com/destinations.html#santorini"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kyoto, Japan",
+          "description": "Ancient traditions and serene natural beauty",
+          "url": "https://wanderlust-tours.com/destinations.html#kyoto"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Machu Picchu, Peru",
+          "description": "Ancient Incan citadel nestled in the Andes Mountains",
+          "url": "https://wanderlust-tours.com/destinations.html#machu"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Safari Tours, Kenya",
+          "description": "Wildlife adventures in the African savanna",
+          "url": "https://wanderlust-tours.com/destinations.html#safari"
+        }
+      ]
+    }
+    </script>
+    
+    <title>Wanderlust Tours - Premium Travel Destinations</title>
+    
+    <style>
+        /* Shared CSS from home page */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #2a6f97;
+            --secondary: #2c5f2d;
+            --accent: #ff6b35;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--primary);
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+        
+        .btn:hover {
+            background: #1a5a80;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .btn-accent {
+            background: var(--accent);
+        }
+        
+        .btn-accent:hover {
+            background: #e55a2b;
+        }
+        
+        section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 2.5rem;
+            color: var(--primary);
+            position: relative;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--accent);
+        }
+        
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .logo span {
+            color: var(--accent);
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 30px;
+        }
+        
+        .nav-links a {
+            font-weight: 600;
+            color: var(--dark);
+            transition: var(--transition);
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--primary);
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-col h3 {
+            color: white;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-col h3:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: var(--accent);
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #adb5bd;
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: white;
+            padding-left: 5px;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            color: white;
+            transition: var(--transition);
+        }
+        
+        .social-links a:hover {
+            background: var(--accent);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #adb5bd;
+            font-size: 0.9rem;
+        }
+        
+        /* Destinations specific styles */
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .destination-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: var(--transition);
+        }
+        
+        .destination-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        
+        .card-img {
+            height: 250px;
+            overflow: hidden;
+        }
+        
+        .card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .destination-card:hover .card-img img {
+            transform: scale(1.1);
+        }
+        
+        .card-content {
+            padding: 25px;
+        }
+        
+        .card-content h3 {
+            margin-bottom: 15px;
+            color: var(--primary);
+            font-size: 1.5rem;
+        }
+        
+        .card-content p {
+            color: var(--gray);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        
+        .price {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .destination-details {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            margin-top: 40px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .destination-details h3 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+        
+        .destination-details p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+        
+        .itinerary {
+            margin-top: 30px;
+        }
+        
+        .itinerary h4 {
+            color: var(--secondary);
+            margin: 25px 0 15px;
+            font-size: 1.4rem;
+        }
+        
+        .itinerary ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .itinerary li {
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .nav-links {
+                position: fixed;
+                top: 80px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 80px);
+                background: white;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 50px;
+                transition: var(--transition);
+            }
+            
+            .nav-links.active {
+                left: 0;
+            }
+            
+            .nav-links li {
+                margin: 15px 0;
+            }
+            
+            .destination-details {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Wander<span>lust</span></a>
+                <button class="mobile-menu-btn">☰</button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="why-choose-us.html">Why Choose Us</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="destinations">
+        <div class="container">
+            <h2 class="section-title">Our Premium Destinations</h2>
+            <div class="destinations-grid">
+                <!-- Bali -->
+                <div class="destination-card" id="bali">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Bali Beach Resort - Tropical paradise with white sand beaches and crystal clear water">
+                    </div>
+                    <div class="card-content">
+                        <h3>Bali, Indonesia</h3>
+                        <p>Experience the perfect blend of relaxation and adventure in this tropical paradise. From serene rice terraces to vibrant cultural experiences.</p>
+                        <span class="price">From $1,299</span>
+                        <a href="#bali-details" class="btn">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Santorini -->
+                <div class="destination-card" id="santorini">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Santorini Greece - Whitewashed buildings with blue domes overlooking the Aegean Sea">
+                    </div>
+                    <div class="card-content">
+                        <h3>Santorini, Greece</h3>
+                        <p>Discover the iconic blue-domed churches and breathtaking sunsets of the Aegean. A romantic paradise for couples and honeymooners.</p>
+                        <span class="price">From $1,899</span>
+                        <a href="#santorini-details" class="btn">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Kyoto -->
+                <div class="destination-card" id="kyoto">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Kyoto Japan - Traditional Japanese temple surrounded by autumn foliage">
+                    </div>
+                    <div class="card-content">
+                        <h3>Kyoto, Japan</h3>
+                        <p>Immerse yourself in ancient traditions and serene natural beauty. Explore historic temples, gardens, and traditional tea ceremonies.</p>
+                        <span class="price">From $2,199</span>
+                        <a href="#kyoto-details" class="btn">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Machu Picchu -->
+                <div class="destination-card" id="machu">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Machu Picchu Peru - Ancient Incan citadel nestled in the Andes Mountains">
+                    </div>
+                    <div class="card-content">
+                        <h3>Machu Picchu, Peru</h3>
+                        <p>Embark on an unforgettable journey to the ancient Incan citadel. Hike the Inca Trail or take the scenic train through the Andes.</p>
+                        <span class="price">From $2,499</span>
+                        <a href="#machu-details" class="btn">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Safari -->
+                <div class="destination-card" id="safari">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1546182990-d3675b4c7b4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Kenya Safari - Wildlife adventure in the African savanna with elephants and lions">
+                    </div>
+                    <div class="card-content">
+                        <h3>Safari Tours, Kenya</h3>
+                        <p>Experience the thrill of wildlife safaris in the African savanna. Witness the Great Migration and stay in luxury eco-lodges.</p>
+                        <span class="price">From $3,299</span>
+                        <a href="#safari-details" class="btn">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Paris -->
+                <div class="destination-card" id="paris">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Paris France - Eiffel Tower and romantic cityscape">
+                    </div>
+                    <div class="card-content">
+                        <h3>Paris, France</h3>
+                        <p>Indulge in the romance of the City of Light. Explore iconic landmarks, world-class museums, and exquisite French cuisine.</p>
+                        <span class="price">From $1,799</span>
+                        <a href="#paris-details" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destination Details Sections -->
+    <section class="destination-details" id="bali-details">
+        <div class="container">
+            <h3>Bali, Indonesia - Island Paradise</h3>
+            <p>Bali offers the perfect blend of natural beauty, cultural richness, and spiritual tranquility. Our 7-day tour includes:</p>
+            
+            <div class="itinerary">
+                <h4>Sample Itinerary</h4>
+                <ul>
+                    <li>Arrival in Denpasar with private transfer to your luxury resort</li>
+                    <li>Guided tour of Ubud's cultural heart - temples, rice terraces, and art markets</li>
+                    <li>Day trip to Mount Batur for sunrise trekking and volcanic lake exploration</li>
+                    <li>Beach day at Nusa Dua with optional water sports</li>
+                    <li>Traditional Balinese cooking class and dinner</li>
+                    <li>Relaxation day at your resort with spa treatments</li>
+                    <li>Departure with unforgettable memories</li>
+                </ul>
+            </div>
+            
+            <p>Includes: 6 nights luxury accommodation, all breakfasts and 3 dinners, private transfers, English-speaking guide, entrance fees, and 24/7 support.</p>
+            <a href="contact.html" class="btn btn-accent">Book This Tour</a>
+        </div>
+    </section>
+
+    <section class="destination-details" id="santorini-details">
+        <div class="container">
+            <h3>Santorini, Greece - Aegean Gem</h3>
+            <p>Santorini captivates with its dramatic cliffs, whitewashed buildings, and legendary sunsets. Our 5-day romantic getaway includes:</p>
+            
+            <div class="itinerary">
+                <h4>Sample Itinerary</h4>
+                <ul>
+                    <li>Arrival in Santorini with private transfer to your caldera-view suite</li>
+                    <li>Walking tour of Oia village and sunset viewing</li>
+                    <li>Wine tasting tour at local vineyards with volcanic soil wines</li>
+                    <li>Catamaran cruise around the caldera with swimming stops and BBQ dinner</li>
+                    <li>Free day to explore Fira or relax at your hotel</li>
+                </ul>
+            </div>
+            
+            <p>Includes: 4 nights luxury accommodation, daily breakfast, 2 gourmet dinners, private transfers, guided tours, wine tasting, catamaran cruise, and 24/7 support.</p>
+            <a href="contact.html" class="btn btn-accent">Book This Tour</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Wanderlust Tours</h3>
+                    <p>Your trusted partner for extraordinary travel experiences since 2010. We craft unforgettable journeys to the world's most captivating destinations.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">i</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                        <a href="#" aria-label="YouTube">y</a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="why-choose-us.html">Why Choose Us</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Popular Destinations</h3>
+                    <ul class="footer-links">
+                        <li><a href="destinations.html#bali">Bali, Indonesia</a></li>
+                        <li><a href="destinations.html#santorini">Santorini, Greece</a></li>
+                        <li><a href="destinations.html#kyoto">Kyoto, Japan</a></li>
+                        <li><a href="destinations.html#machu">Machu Picchu, Peru</a></li>
+                        <li><a href="destinations.html#safari">Safari Tours, Kenya</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li>📍 123 Adventure Street, Travel City</li>
+                        <li>📞 +1 (800) 926-3371</li>
+                        <li>✉️ info@wanderlust-tours.com</li>
+                        <li>🕒 Mon-Fri: 9AM - 6PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Wanderlust Tours. All rights reserved. | Designed with ❤️ for travelers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const navLinks = document.querySelector('.nav-links');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    navLinks.classList.remove('active');
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

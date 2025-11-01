@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read authentic traveler reviews and experiences with Wanderlust Tours. See why thousands of satisfied customers choose us for their dream vacations.">
+    <meta name="keywords" content="travel testimonials, customer reviews, Wanderlust Tours reviews, travel experiences, vacation feedback, tour reviews">
+    <meta name="author" content="Wanderlust Tours">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="Wanderlust Tours - Authentic Traveler Testimonials">
+    <meta property="og:description" content="Read real experiences from our satisfied travelers around the world.">
+    <meta property="og:image" content="https://wanderlust-tours.com/images/og-testimonials.jpg">
+    <meta property="og:url" content="https://wanderlust-tours.com/testimonials.html">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wanderlust Tours - Authentic Traveler Testimonials">
+    <meta name="twitter:description" content="Read real experiences from our satisfied travelers around the world.">
+    <meta name="twitter:image" content="https://wanderlust-tours.com/images/twitter-testimonials.jpg">
+    
+    <link rel="canonical" href="https://wanderlust-tours.com/testimonials.html">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "TravelAgency",
+        "name": "Wanderlust Tours"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.9",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Verified Travelers"
+      },
+      "reviewBody": "Wanderlust Tours provides exceptional travel experiences with expert guides, curated accommodations, and 24/7 support. Our customers consistently rate us 4.9/5 for service quality and trip satisfaction."
+    }
+    </script>
+    
+    <title>Wanderlust Tours - Authentic Traveler Testimonials</title>
+    
+    <style>
+        /* Shared CSS from home page */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #2a6f97;
+            --secondary: #2c5f2d;
+            --accent: #ff6b35;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--primary);
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+        
+        .btn:hover {
+            background: #1a5a80;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .btn-accent {
+            background: var(--accent);
+        }
+        
+        .btn-accent:hover {
+            background: #e55a2b;
+        }
+        
+        section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 2.5rem;
+            color: var(--primary);
+            position: relative;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--accent);
+        }
+        
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .logo span {
+            color: var(--accent);
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 30px;
+        }
+        
+        .nav-links a {
+            font-weight: 600;
+            color: var(--dark);
+            transition: var(--transition);
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--primary);
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-col h3 {
+            color: white;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-col h3:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: var(--accent);
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #adb5bd;
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: white;
+            padding-left: 5px;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            color: white;
+            transition: var(--transition);
+        }
+        
+        .social-links a:hover {
+            background: var(--accent);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #adb5bd;
+            font-size: 0.9rem;
+        }
+        
+        /* Testimonials specific styles */
+        .testimonials-section {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+        }
+        
+        .testimonials-section .section-title {
+            color: white;
+        }
+        
+        .testimonials-section .section-title:after {
+            background: var(--accent);
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+        
+        .testimonial-card {
+            background: rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            position: relative;
+        }
+        
+        .testimonial-card:before {
+            content: """;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 5rem;
+            opacity: 0.1;
+            font-family: Georgia, serif;
+            line-height: 1;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 25px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .client-info {
+            display: flex;
+            align-items: center;
+        }
+        
+        .client-img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 20px;
+            border: 3px solid rgba(255,255,255,0.3);
+        }
+        
+        .client-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .client-details h4 {
+            margin-bottom: 5px;
+            font-size: 1.3rem;
+        }
+        
+        .client-details p {
+            opacity: 0.9;
+            font-weight: 500;
+        }
+        
+        .rating {
+            color: gold;
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+        
+        .video-testimonial {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            margin-top: 40px;
+            color: var(--dark);
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .video-content {
+            padding: 30px;
+        }
+        
+        .video-content h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        
+        .stats-section {
+            text-align: center;
+            padding: 60px 0;
+            background-color: #f0f5f9;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .stat-item {
+            padding: 20px;
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 10px;
+        }
+        
+        .stat-text {
+            font-size: 1.2rem;
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .review-platforms {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        
+        .platform-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            text-align: center;
+            min-width: 200px;
+        }
+        
+        .platform-logo {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .platform-rating {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin: 10px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .nav-links {
+                position: fixed;
+                top: 80px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 80px);
+                background: white;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 50px;
+                transition: var(--transition);
+            }
+            
+            .nav-links.active {
+                left: 0;
+            }
+            
+            .nav-links li {
+                margin: 15px 0;
+            }
+            
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Wander<span>lust</span></a>
+                <button class="mobile-menu-btn">☰</button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="why-choose-us.html">Why Choose Us</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Authentic Traveler Experiences</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        Wanderlust Tours transformed our honeymoon into a magical experience. Every detail was perfectly arranged, and our guide in Bali made us feel like royalty! The private beach dinner they arranged was the highlight of our trip.
+                    </div>
+                    <div class="rating">★★★★★</div>
+                    <div class="client-info">
+                        <div class="client-img">
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah Johnson">
+                        </div>
+                        <div class="client-details">
+                            <h4>Sarah Johnson</h4>
+                            <p>Bali Honeymoon Package</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        As a solo traveler, I was nervous about exploring Japan alone. Wanderlust Tours created a personalized itinerary that gave me confidence and unforgettable memories. My guide in Kyoto was incredibly knowledgeable and helped me navigate the city with ease.
+                    </div>
+                    <div class="rating">★★★★★</div>
+                    <div class="client-info">
+                        <div class="client-img">
+                            <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Michael Chen">
+                        </div>
+                        <div class="client-details">
+                            <h4>Michael Chen</h4>
+                            <p>Japan Cultural Tour</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        The Santorini sunset cruise was the highlight of our trip! The attention to detail and exceptional service exceeded all our expectations. Our guide arranged a surprise anniversary celebration that brought tears to my wife's eyes.
+                    </div>
+                    <div class="rating">★★★★★</div>
+                    <div class="client-info">
+                        <div class="client-img">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma Rodriguez">
+                        </div>
+                        <div class="client-details">
+                            <h4>Emma Rodriguez</h4>
+                            <p>Greek Islands Adventure</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        Our family safari in Kenya was everything we dreamed of and more. The kids were thrilled to see lions and elephants up close, and the luxury eco-lodge was both comfortable and environmentally conscious. Wanderlust Tours thought of everything!
+                    </div>
+                    <div class="rating">★★★★★</div>
+                    <div class="client-info">
+                        <div class="client-img">
+                            <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="David Thompson">
+                        </div>
+                        <div class="client-details">
+                            <h4>David Thompson</h4>
+                            <p>Kenya Family Safari</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        The Machu Picchu trek was challenging but absolutely worth it. Our guide was not only knowledgeable about Incan history but also ensured our safety throughout the journey. The train ride through the Andes was breathtaking!
+                    </div>
+                    <div class="rating">★★★★★</div>
+                    <div class="client-info">
+                        <div class="client-img">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Lisa Martinez">
+                        </div>
+                        <div class="client-details">
+                            <h4>Lisa Martinez</h4>
+                            <p>Peru Adventure Tour</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        Our Paris anniversary trip was perfect in every way. From the Eiffel Tower dinner to the private Louvre tour, Wanderlust Tours created magical moments we'll cherish forever. The hotel they selected had the most amazing view!
+                    </div>
+                    <div class="rating">★★★★★</div>
+                    <div class="client-info">
+                        <div class="client-img">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Robert Wilson">
+                        </div>
+                        <div class="client-details">
+                            <h4>Robert Wilson</h4>
+                            <p>Paris Romantic Getaway</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <h2 class="section-title">Our Traveler Satisfaction</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">4.9/5</div>
+                    <div class="stat-text">Average Rating</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-text">Would Recommend</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10,000+</div>
+                    <div class="stat-text">Happy Travelers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-text">Years Experience</div>
+                </div>
+            </div>
+            
+            <div class="review-platforms">
+                <div class="platform-card">
+                    <div class="platform-logo">⭐</div>
+                    <h3>Google Reviews</h3>
+                    <div class="platform-rating">4.9/5</div>
+                    <p>Based on 1,250+ reviews</p>
+                </div>
+                
+                <div class="platform-card">
+                    <div class="platform-logo">👍</div>
+                    <h3>Facebook</h3>
+                    <div class="platform-rating">4.8/5</div>
+                    <p>Based on 850+ reviews</p>
+                </div>
+                
+                <div class="platform-card">
+                    <div class="platform-logo">📝</div>
+                    <h3>Trustpilot</h3>
+                    <div class="platform-rating">4.9/5</div>
+                    <p>Based on 620+ reviews</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-testimonial">
+        <div class="container">
+            <h2 class="section-title">Video Testimonials</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Wanderlust Tours Customer Experience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-content">
+                <h3>Real Stories from Our Travelers</h3>
+                <p>Watch our satisfied customers share their unforgettable experiences with Wanderlust Tours. Hear directly from travelers who have explored the world with us and discover why they keep coming back for more adventures.</p>
+                <a href="contact.html" class="btn btn-accent">Start Your Journey</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Wanderlust Tours</h3>
+                    <p>Your trusted partner for extraordinary travel experiences since 2010. We craft unforgettable journeys to the world's most captivating destinations.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">i</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                        <a href="#" aria-label="YouTube">y</a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="why-choose-us.html">Why Choose Us</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Popular Destinations</h3>
+                    <ul class="footer-links">
+                        <li><a href="destinations.html#bali">Bali, Indonesia</a></li>
+                        <li><a href="destinations.html#santorini">Santorini, Greece</a></li>
+                        <li><a href="destinations.html#kyoto">Kyoto, Japan</a></li>
+                        <li><a href="destinations.html#machu">Machu Picchu, Peru</a></li>
+                        <li><a href="destinations.html#safari">Safari Tours, Kenya</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li>📍 123 Adventure Street, Travel City</li>
+                        <li>📞 +1 (800) 926-3371</li>
+                        <li>✉️ info@wanderlust-tours.com</li>
+                        <li>🕒 Mon-Fri: 9AM - 6PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Wanderlust Tours. All rights reserved. | Designed with ❤️ for travelers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const navLinks = document.querySelector('.nav-links');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    navLinks.classList.remove('active');
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
